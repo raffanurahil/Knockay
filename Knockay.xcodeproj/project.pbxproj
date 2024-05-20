@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55178DF42BFBB14100B5CDE5 /* KnockayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178DF32BFBB14100B5CDE5 /* KnockayApp.swift */; };
+		55178DF62BFBB14100B5CDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178DF52BFBB14100B5CDE5 /* ContentView.swift */; };
+		55178DF82BFBB14200B5CDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55178DF72BFBB14200B5CDE5 /* Assets.xcassets */; };
+		55178DFB2BFBB14200B5CDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55178DFA2BFBB14200B5CDE5 /* Preview Assets.xcassets */; };
+		55178E012BFBB14200B5CDE5 /* Knockay Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 55178E002BFBB14200B5CDE5 /* Knockay Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55178E062BFBB14200B5CDE5 /* KnockayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E052BFBB14200B5CDE5 /* KnockayApp.swift */; };
+		55178E082BFBB14200B5CDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E072BFBB14200B5CDE5 /* ContentView.swift */; };
+		55178E0A2BFBB14300B5CDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55178E092BFBB14300B5CDE5 /* Assets.xcassets */; };
+		55178E0D2BFBB14300B5CDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55178E0C2BFBB14300B5CDE5 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55178E022BFBB14200B5CDE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55178DE82BFBB14000B5CDE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55178DFF2BFBB14200B5CDE5;
+			remoteInfo = "Knockay Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55178E132BFBB14300B5CDE5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				55178E012BFBB14200B5CDE5 /* Knockay Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55178DF02BFBB14100B5CDE5 /* Knockay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knockay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55178DF32BFBB14100B5CDE5 /* KnockayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnockayApp.swift; sourceTree = "<group>"; };
+		55178DF52BFBB14100B5CDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55178DF72BFBB14200B5CDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55178DFA2BFBB14200B5CDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55178E002BFBB14200B5CDE5 /* Knockay Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knockay Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55178E052BFBB14200B5CDE5 /* KnockayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnockayApp.swift; sourceTree = "<group>"; };
+		55178E072BFBB14200B5CDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55178E092BFBB14300B5CDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55178E0C2BFBB14300B5CDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55178DED2BFBB14100B5CDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55178DFD2BFBB14200B5CDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55178DE72BFBB14000B5CDE5 = {
+			isa = PBXGroup;
+			children = (
+				55178DF22BFBB14100B5CDE5 /* Knockay */,
+				55178E042BFBB14200B5CDE5 /* Knockay Watch App */,
+				55178DF12BFBB14100B5CDE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55178DF12BFBB14100B5CDE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55178DF02BFBB14100B5CDE5 /* Knockay.app */,
+				55178E002BFBB14200B5CDE5 /* Knockay Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55178DF22BFBB14100B5CDE5 /* Knockay */ = {
+			isa = PBXGroup;
+			children = (
+				55178DF32BFBB14100B5CDE5 /* KnockayApp.swift */,
+				55178DF52BFBB14100B5CDE5 /* ContentView.swift */,
+				55178DF72BFBB14200B5CDE5 /* Assets.xcassets */,
+				55178DF92BFBB14200B5CDE5 /* Preview Content */,
+			);
+			path = Knockay;
+			sourceTree = "<group>";
+		};
+		55178DF92BFBB14200B5CDE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55178DFA2BFBB14200B5CDE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55178E042BFBB14200B5CDE5 /* Knockay Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				55178E052BFBB14200B5CDE5 /* KnockayApp.swift */,
+				55178E072BFBB14200B5CDE5 /* ContentView.swift */,
+				55178E092BFBB14300B5CDE5 /* Assets.xcassets */,
+				55178E0B2BFBB14300B5CDE5 /* Preview Content */,
+			);
+			path = "Knockay Watch App";
+			sourceTree = "<group>";
+		};
+		55178E0B2BFBB14300B5CDE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55178E0C2BFBB14300B5CDE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55178DEF2BFBB14100B5CDE5 /* Knockay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55178E142BFBB14300B5CDE5 /* Build configuration list for PBXNativeTarget "Knockay" */;
+			buildPhases = (
+				55178DEC2BFBB14100B5CDE5 /* Sources */,
+				55178DED2BFBB14100B5CDE5 /* Frameworks */,
+				55178DEE2BFBB14100B5CDE5 /* Resources */,
+				55178E132BFBB14300B5CDE5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55178E032BFBB14200B5CDE5 /* PBXTargetDependency */,
+			);
+			name = Knockay;
+			productName = Knockay;
+			productReference = 55178DF02BFBB14100B5CDE5 /* Knockay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55178DFF2BFBB14200B5CDE5 /* Knockay Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55178E102BFBB14300B5CDE5 /* Build configuration list for PBXNativeTarget "Knockay Watch App" */;
+			buildPhases = (
+				55178DFC2BFBB14200B5CDE5 /* Sources */,
+				55178DFD2BFBB14200B5CDE5 /* Frameworks */,
+				55178DFE2BFBB14200B5CDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knockay Watch App";
+			productName = "Knockay Watch App";
+			productReference = 55178E002BFBB14200B5CDE5 /* Knockay Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55178DE82BFBB14000B5CDE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					55178DEF2BFBB14100B5CDE5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					55178DFF2BFBB14200B5CDE5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 55178DEB2BFBB14000B5CDE5 /* Build configuration list for PBXProject "Knockay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55178DE72BFBB14000B5CDE5;
+			productRefGroup = 55178DF12BFBB14100B5CDE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55178DEF2BFBB14100B5CDE5 /* Knockay */,
+				55178DFF2BFBB14200B5CDE5 /* Knockay Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55178DEE2BFBB14100B5CDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55178DFB2BFBB14200B5CDE5 /* Preview Assets.xcassets in Resources */,
+				55178DF82BFBB14200B5CDE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55178DFE2BFBB14200B5CDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55178E0D2BFBB14300B5CDE5 /* Preview Assets.xcassets in Resources */,
+				55178E0A2BFBB14300B5CDE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55178DEC2BFBB14100B5CDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55178DF62BFBB14100B5CDE5 /* ContentView.swift in Sources */,
+				55178DF42BFBB14100B5CDE5 /* KnockayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55178DFC2BFBB14200B5CDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55178E082BFBB14200B5CDE5 /* ContentView.swift in Sources */,
+				55178E062BFBB14200B5CDE5 /* KnockayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55178E032BFBB14200B5CDE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55178DFF2BFBB14200B5CDE5 /* Knockay Watch App */;
+			targetProxy = 55178E022BFBB14200B5CDE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55178E0E2BFBB14300B5CDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55178E0F2BFBB14300B5CDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		55178E112BFBB14300B5CDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Knockay Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MF95J78FSU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Knockay;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Knockay;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Knockay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		55178E122BFBB14300B5CDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Knockay Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MF95J78FSU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Knockay;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Knockay;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Knockay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		55178E152BFBB14300B5CDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Knockay/Preview Content\"";
+				DEVELOPMENT_TEAM = MF95J78FSU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Knockay;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Knockay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55178E162BFBB14300B5CDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Knockay/Preview Content\"";
+				DEVELOPMENT_TEAM = MF95J78FSU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Knockay;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Knockay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55178DEB2BFBB14000B5CDE5 /* Build configuration list for PBXProject "Knockay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55178E0E2BFBB14300B5CDE5 /* Debug */,
+				55178E0F2BFBB14300B5CDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55178E102BFBB14300B5CDE5 /* Build configuration list for PBXNativeTarget "Knockay Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55178E112BFBB14300B5CDE5 /* Debug */,
+				55178E122BFBB14300B5CDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55178E142BFBB14300B5CDE5 /* Build configuration list for PBXNativeTarget "Knockay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55178E152BFBB14300B5CDE5 /* Debug */,
+				55178E162BFBB14300B5CDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55178DE82BFBB14000B5CDE5 /* Project object */;
+}
