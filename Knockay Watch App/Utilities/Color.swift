@@ -1,6 +1,6 @@
 //
 //  Color.swift
-//  Inner Beast Watch App
+//  Knockay Watch App
 //
 //  Created by Addarda Raffanurahil Aufa on 20/05/24.
 //

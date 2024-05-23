@@ -16,6 +16,23 @@
 		55178E082BFBB14200B5CDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E072BFBB14200B5CDE5 /* ContentView.swift */; };
 		55178E0A2BFBB14300B5CDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55178E092BFBB14300B5CDE5 /* Assets.xcassets */; };
 		55178E0D2BFBB14300B5CDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55178E0C2BFBB14300B5CDE5 /* Preview Assets.xcassets */; };
+		55178E192BFBB19A00B5CDE5 /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E182BFBB19A00B5CDE5 /* HeartRateView.swift */; };
+		55178E1E2BFBB61300B5CDE5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E1D2BFBB61300B5CDE5 /* MainView.swift */; };
+		55178E202BFBB61A00B5CDE5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E1F2BFBB61A00B5CDE5 /* GameView.swift */; };
+		55178E272BFBB66800B5CDE5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E262BFBB66800B5CDE5 /* Color.swift */; };
+		55178E2E2BFBB8C600B5CDE5 /* custom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55178E2D2BFBB8C600B5CDE5 /* custom.ttf */; };
+		55178E312BFC641500B5CDE5 /* FireDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E302BFC641500B5CDE5 /* FireDefaultView.swift */; };
+		55178E332BFC696500B5CDE5 /* Fire1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E322BFC696500B5CDE5 /* Fire1View.swift */; };
+		55178E352BFC6EA400B5CDE5 /* Fire2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E342BFC6EA400B5CDE5 /* Fire2View.swift */; };
+		55178E372BFC6EE500B5CDE5 /* Fire3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E362BFC6EE500B5CDE5 /* Fire3View.swift */; };
+		55178E392BFC843700B5CDE5 /* RageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E382BFC843700B5CDE5 /* RageView.swift */; };
+		55178E3B2BFC8FEF00B5CDE5 /* SoundLevelMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E3A2BFC8FEF00B5CDE5 /* SoundLevelMonitor.swift */; };
+		55178E3D2BFC9E1C00B5CDE5 /* SoundLevelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E3C2BFC9E1C00B5CDE5 /* SoundLevelManager.swift */; };
+		55178E422BFCF78100B5CDE5 /* FireYellowGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55178E412BFCF78100B5CDE5 /* FireYellowGif.gif */; };
+		55178E4E2BFD250100B5CDE5 /* InstructionsPunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E4D2BFD250100B5CDE5 /* InstructionsPunchView.swift */; };
+		55178E502BFD2A9F00B5CDE5 /* InstructionScreamingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E4F2BFD2A9F00B5CDE5 /* InstructionScreamingView.swift */; };
+		55178E522BFD3DF000B5CDE5 /* FullScreenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E512BFD3DF000B5CDE5 /* FullScreenHelper.swift */; };
+		55178E562BFE918D00B5CDE5 /* HeartRateNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E552BFE918D00B5CDE5 /* HeartRateNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +70,25 @@
 		55178E072BFBB14200B5CDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55178E092BFBB14300B5CDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55178E0C2BFBB14300B5CDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55178E182BFBB19A00B5CDE5 /* HeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateView.swift; sourceTree = "<group>"; };
+		55178E1A2BFBB1B600B5CDE5 /* Knockay Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Knockay Watch App.entitlements"; sourceTree = "<group>"; };
+		55178E1D2BFBB61300B5CDE5 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		55178E1F2BFBB61A00B5CDE5 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		55178E262BFBB66800B5CDE5 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		55178E2D2BFBB8C600B5CDE5 /* custom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = custom.ttf; sourceTree = "<group>"; };
+		55178E2F2BFBB90D00B5CDE5 /* Knockay-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Knockay-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		55178E302BFC641500B5CDE5 /* FireDefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireDefaultView.swift; sourceTree = "<group>"; };
+		55178E322BFC696500B5CDE5 /* Fire1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fire1View.swift; sourceTree = "<group>"; };
+		55178E342BFC6EA400B5CDE5 /* Fire2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fire2View.swift; sourceTree = "<group>"; };
+		55178E362BFC6EE500B5CDE5 /* Fire3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fire3View.swift; sourceTree = "<group>"; };
+		55178E382BFC843700B5CDE5 /* RageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RageView.swift; sourceTree = "<group>"; };
+		55178E3A2BFC8FEF00B5CDE5 /* SoundLevelMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundLevelMonitor.swift; sourceTree = "<group>"; };
+		55178E3C2BFC9E1C00B5CDE5 /* SoundLevelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundLevelManager.swift; sourceTree = "<group>"; };
+		55178E412BFCF78100B5CDE5 /* FireYellowGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FireYellowGif.gif; sourceTree = "<group>"; };
+		55178E4D2BFD250100B5CDE5 /* InstructionsPunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsPunchView.swift; sourceTree = "<group>"; };
+		55178E4F2BFD2A9F00B5CDE5 /* InstructionScreamingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionScreamingView.swift; sourceTree = "<group>"; };
+		55178E512BFD3DF000B5CDE5 /* FullScreenHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenHelper.swift; sourceTree = "<group>"; };
+		55178E552BFE918D00B5CDE5 /* HeartRateNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +115,7 @@
 				55178DF22BFBB14100B5CDE5 /* Knockay */,
 				55178E042BFBB14200B5CDE5 /* Knockay Watch App */,
 				55178DF12BFBB14100B5CDE5 /* Products */,
+				55178E432BFCFA1500B5CDE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +150,15 @@
 		55178E042BFBB14200B5CDE5 /* Knockay Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				55178E2F2BFBB90D00B5CDE5 /* Knockay-Watch-App-Info.plist */,
+				55178E2C2BFBB89800B5CDE5 /* Assets */,
+				55178E2B2BFBB6A500B5CDE5 /* Animations */,
+				55178E2A2BFBB69500B5CDE5 /* ViewModels */,
+				55178E292BFBB68800B5CDE5 /* Managers */,
+				55178E282BFBB67F00B5CDE5 /* Models */,
+				55178E1A2BFBB1B600B5CDE5 /* Knockay Watch App.entitlements */,
+				55178E252BFBB65600B5CDE5 /* Utilities */,
+				55178E172BFBB18A00B5CDE5 /* View */,
 				55178E052BFBB14200B5CDE5 /* KnockayApp.swift */,
 				55178E072BFBB14200B5CDE5 /* ContentView.swift */,
 				55178E092BFBB14300B5CDE5 /* Assets.xcassets */,
@@ -127,6 +173,79 @@
 				55178E0C2BFBB14300B5CDE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55178E172BFBB18A00B5CDE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55178E1D2BFBB61300B5CDE5 /* MainView.swift */,
+				55178E1F2BFBB61A00B5CDE5 /* GameView.swift */,
+				55178E182BFBB19A00B5CDE5 /* HeartRateView.swift */,
+				55178E382BFC843700B5CDE5 /* RageView.swift */,
+				55178E512BFD3DF000B5CDE5 /* FullScreenHelper.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55178E252BFBB65600B5CDE5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				55178E262BFBB66800B5CDE5 /* Color.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		55178E282BFBB67F00B5CDE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55178E292BFBB68800B5CDE5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				55178E3A2BFC8FEF00B5CDE5 /* SoundLevelMonitor.swift */,
+				55178E3C2BFC9E1C00B5CDE5 /* SoundLevelManager.swift */,
+				55178E552BFE918D00B5CDE5 /* HeartRateNotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		55178E2A2BFBB69500B5CDE5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		55178E2B2BFBB6A500B5CDE5 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				55178E302BFC641500B5CDE5 /* FireDefaultView.swift */,
+				55178E322BFC696500B5CDE5 /* Fire1View.swift */,
+				55178E342BFC6EA400B5CDE5 /* Fire2View.swift */,
+				55178E362BFC6EE500B5CDE5 /* Fire3View.swift */,
+				55178E4D2BFD250100B5CDE5 /* InstructionsPunchView.swift */,
+				55178E4F2BFD2A9F00B5CDE5 /* InstructionScreamingView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		55178E2C2BFBB89800B5CDE5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				55178E412BFCF78100B5CDE5 /* FireYellowGif.gif */,
+				55178E2D2BFBB8C600B5CDE5 /* custom.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		55178E432BFCFA1500B5CDE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +266,8 @@
 				55178E032BFBB14200B5CDE5 /* PBXTargetDependency */,
 			);
 			name = Knockay;
+			packageProductDependencies = (
+			);
 			productName = Knockay;
 			productReference = 55178DF02BFBB14100B5CDE5 /* Knockay.app */;
 			productType = "com.apple.product-type.application";
@@ -164,6 +285,8 @@
 			dependencies = (
 			);
 			name = "Knockay Watch App";
+			packageProductDependencies = (
+			);
 			productName = "Knockay Watch App";
 			productReference = 55178E002BFBB14200B5CDE5 /* Knockay Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +318,8 @@
 				Base,
 			);
 			mainGroup = 55178DE72BFBB14000B5CDE5;
+			packageReferences = (
+			);
 			productRefGroup = 55178DF12BFBB14100B5CDE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -220,6 +345,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55178E0D2BFBB14300B5CDE5 /* Preview Assets.xcassets in Resources */,
+				55178E422BFCF78100B5CDE5 /* FireYellowGif.gif in Resources */,
+				55178E2E2BFBB8C600B5CDE5 /* custom.ttf in Resources */,
 				55178E0A2BFBB14300B5CDE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +367,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55178E502BFD2A9F00B5CDE5 /* InstructionScreamingView.swift in Sources */,
+				55178E312BFC641500B5CDE5 /* FireDefaultView.swift in Sources */,
+				55178E3D2BFC9E1C00B5CDE5 /* SoundLevelManager.swift in Sources */,
 				55178E082BFBB14200B5CDE5 /* ContentView.swift in Sources */,
+				55178E522BFD3DF000B5CDE5 /* FullScreenHelper.swift in Sources */,
+				55178E1E2BFBB61300B5CDE5 /* MainView.swift in Sources */,
+				55178E3B2BFC8FEF00B5CDE5 /* SoundLevelMonitor.swift in Sources */,
+				55178E392BFC843700B5CDE5 /* RageView.swift in Sources */,
 				55178E062BFBB14200B5CDE5 /* KnockayApp.swift in Sources */,
+				55178E372BFC6EE500B5CDE5 /* Fire3View.swift in Sources */,
+				55178E4E2BFD250100B5CDE5 /* InstructionsPunchView.swift in Sources */,
+				55178E562BFE918D00B5CDE5 /* HeartRateNotificationManager.swift in Sources */,
+				55178E332BFC696500B5CDE5 /* Fire1View.swift in Sources */,
+				55178E192BFBB19A00B5CDE5 /* HeartRateView.swift in Sources */,
+				55178E352BFC6EA400B5CDE5 /* Fire2View.swift in Sources */,
+				55178E202BFBB61A00B5CDE5 /* GameView.swift in Sources */,
+				55178E272BFBB66800B5CDE5 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,13 +517,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Knockay Watch App/Knockay Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Knockay Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = MF95J78FSU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Knockay-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Knockay;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your description here.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Your description here.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your permission to record voice";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Knockay;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -405,13 +552,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Knockay Watch App/Knockay Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Knockay Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = MF95J78FSU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Knockay-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Knockay;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your description here.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Your description here.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your permission to record voice";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Knockay;
 				LD_RUNPATH_SEARCH_PATHS = (

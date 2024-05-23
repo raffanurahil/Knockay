@@ -1,18 +1,22 @@
-//
-//  FullScreenHelper.swift
-//  Knockay Watch App
-//
-//  Created by Addarda Raffanurahil Aufa on 22/05/24.
-//
-
 import SwiftUI
 
-struct FullScreenHelper: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct FullScreenCoverView<Content: View>: View {
+    @Binding var isPresented: Bool
+    let content: Content
+    let dismissible: Bool
+    
+    init(isPresented: Binding<Bool>, dismissible: Bool = true, @ViewBuilder content: () -> Content) {
+        self._isPresented = isPresented
+        self.content = content()
+        self.dismissible = dismissible
     }
-}
-
-#Preview {
-    FullScreenHelper()
+    
+    var body: some View {
+        ZStack {
+            if isPresented {
+                content
+            }
+        }
+        .allowsHitTesting(isPresented && dismissible)
+    }
 }

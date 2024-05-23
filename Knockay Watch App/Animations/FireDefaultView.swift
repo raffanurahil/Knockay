@@ -10,6 +10,8 @@ import SwiftUI
 struct FireDefaultView: View {
     // State to keep track of the current frame
     @State private var currentFrame = 0
+    // State to keep track of animation direction
+    @State private var isForward = true
     
     // Array of image names
     let fireImages = ["FireDefault1", "FireDefault2", "FireDefault3"]
@@ -23,10 +25,21 @@ struct FireDefaultView: View {
             Image(fireImages[currentFrame])
                 .resizable()
                 .scaledToFit()
+                .opacity(1)
                 .frame(width: 200, height: 200) // Adjust the size as needed
                 .onReceive(timer) { _ in
-                    // Update the current frame index
-                    currentFrame = (currentFrame + 1) % fireImages.count
+                    // Update the current frame index based on the direction
+                    if isForward {
+                        currentFrame += 1
+                        if currentFrame == fireImages.count - 1 {
+                            isForward = false
+                        }
+                    } else {
+                        currentFrame -= 1
+                        if currentFrame == 0 {
+                            isForward = true
+                        }
+                    }
                 }
         }
     }
@@ -34,7 +47,6 @@ struct FireDefaultView: View {
 
 #Preview {
     FireDefaultView()
-
 }
 
 //struct FireAnimationView: View {

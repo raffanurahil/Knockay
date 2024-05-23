@@ -11,7 +11,9 @@ import SwiftUI
 struct Knockay_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                MainView()
+            }
         }
     }
 }
