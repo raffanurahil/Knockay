@@ -36,10 +36,10 @@ struct RageView: View {
                 .offset(y: 10)
                 .shadow(color: .black.opacity(0.5), radius: 4, x: 0, y: 5)
         }
-//        .onAppear {
-//            // Start monitoring sound levels
-//            soundLevelMonitor.startMonitoring()
-//        }
+        .onAppear {
+            // Start monitoring sound levels
+            soundLevelMonitor.startMonitoring()
+        }
     }
 }
 

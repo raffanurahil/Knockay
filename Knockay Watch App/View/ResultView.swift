@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ResultView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
+    @ObservedObject var gameManager = GameManager()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Results")
+                .font(.largeTitle)
+            
+            Text("Rage Score: \(gameManager.rageScore)")
+            Text("Punch Score: \(gameManager.punchScore)")
+            
+            Button("Back to Game") {
+                presentationMode.wrappedValue.dismiss()
+            }
+        }
     }
 }
 

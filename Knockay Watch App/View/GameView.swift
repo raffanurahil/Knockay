@@ -2,14 +2,17 @@ import SwiftUI
 
 struct GameView: View {
     @Binding var isStarted: Bool
+    @StateObject private var gameManager = GameManager()
+    @StateObject private var motionManager = MotionManager()
     
     @Environment(\.presentationMode) var presentationMode
+    @State private var showResultView = false
     
     var body: some View {
         ZStack {
             // Place the RageView at the bottom layer
             RageView()
-                .offset(x: 0, y: -30)
+                .offset(x: 0, y: -10)
             
             VStack(alignment: .leading, spacing: 16) {
                 HStack {
@@ -17,7 +20,7 @@ struct GameView: View {
                     
                     Text("release!").font(Font.custom("Witless", size: 25))
                         .font(.headline)
-                        .offset(x: 0, y: 5)
+                        .offset(x: 0, y: 10)
                     
                     Spacer()
                 }
@@ -26,17 +29,8 @@ struct GameView: View {
                 Spacer()
                 
                 // Add the InstructionScreamingView, InstructionArrow, and InstructionsPuncView in a horizontal row
-                HStack {
-                    InstructionsScreamingView()
-                        .offset(x: 15, y: 15)
-                    
-                    Image("InstructionArrow")
-                        .offset(x: 15, y: 17.5)
-                    
-                    InstructionsPunchView()
-                        .offset(x: 25, y: 20)
-                }
-                .padding(.bottom)
+                Image("InstructionButton")
+                    .offset(x: 140, y: -10)
             }
             .padding(.horizontal)
             
@@ -50,7 +44,32 @@ struct GameView: View {
             }
             .buttonStyle(PlainButtonStyle())
             .offset(x: -70, y: -95)
-        }.navigationBarBackButtonHidden()
+            
+            if showResultView {
+                NavigationLink(
+                    destination: ResultView(gameManager: gameManager),
+                    isActive: $showResultView,
+                    label: {
+                        EmptyView()
+                    }
+                )
+            }
+        }
+        .navigationBarBackButtonHidden()
+        .onAppear {
+            motionManager.startUpdates()
+        }
+        .onDisappear {
+            motionManager.stopUpdates()
+        }
+        .onChange(of: motionManager.punchScore) { newScore in
+            gameManager.punchScore = newScore
+            if newScore >= 10 { // Example threshold to trigger ResultView
+                withAnimation {
+                    showResultView = true
+                }
+            }
+        }
     }
 }
 
