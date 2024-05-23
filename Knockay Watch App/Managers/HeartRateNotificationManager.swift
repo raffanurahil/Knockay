@@ -57,7 +57,7 @@ class HeartRateNotificationManager: NSObject, ObservableObject {
     public func sendNotification() {
         print("masuk")
         let content = UNMutableNotificationContent()
-        content.title = "ARE YOU ANGRY?!"
+        content.title = "YOU SEEM ANGRY?!"
         content.body = "Control, my friend! Release your anger positively!"
         content.sound = .default
         

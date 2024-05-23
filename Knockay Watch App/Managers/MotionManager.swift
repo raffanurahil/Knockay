@@ -13,7 +13,7 @@ class MotionManager: ObservableObject {
     private var timer: Timer?
     
     @Published var punchScore: Int = 0
-    private let punchThreshold: Double = 1.5 // Adjust the threshold as needed
+    private let punchThreshold: Double = 2.4 // Adjust the threshold as needed
     
     func startUpdates() {
         if motionManager.isAccelerometerAvailable {
