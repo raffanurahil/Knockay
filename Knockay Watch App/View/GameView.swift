@@ -4,14 +4,22 @@ struct GameView: View {
     @Binding var isStarted: Bool
     @StateObject private var gameManager = GameManager()
     @StateObject private var motionManager = MotionManager()
+    @State var soundLevelManager = SoundLevelManager()
+    @StateObject var soundLevelManager2 = SoundLevelManager()
+    @State var rageSound = 0
+    
+    @State var result : Result = Result()
     
     @Environment(\.presentationMode) var presentationMode
     @State private var showResultView = false
     
     var body: some View {
         ZStack {
+            VStack{
+                
+            }
             // Place the RageView at the bottom layer
-            RageView()
+            RageView(soundLevelManager: $soundLevelManager)
                 .offset(x: 0, y: -10)
             
             VStack(alignment: .leading, spacing: 16) {
@@ -45,15 +53,15 @@ struct GameView: View {
             .buttonStyle(PlainButtonStyle())
             .offset(x: -70, y: -95)
             
-            if showResultView {
-                NavigationLink(
-                    destination: ResultView(gameManager: gameManager),
-                    isActive: $showResultView,
-                    label: {
-                        EmptyView()
-                    }
-                )
-            }
+//            if showResultView {
+//                NavigationLink(
+//                    destination: ResultView(result: $result, gameManager: gameManager),
+//                    isActive: $showResultView,
+//                    label: {
+//                        EmptyView()
+//                    }
+//                )
+//            }
         }
         .navigationBarBackButtonHidden()
         .onAppear {
@@ -63,11 +71,26 @@ struct GameView: View {
             motionManager.stopUpdates()
         }
         .onChange(of: motionManager.punchScore) { newScore in
+            print(soundLevelManager.rageScore)
+            print(motionManager.punchScore)
+            print(newScore)
+            gameManager.rageScore = Int(soundLevelManager.rageScore)
             gameManager.punchScore = newScore
-            if newScore >= 10 { // Example threshold to trigger ResultView
-                withAnimation {
-                    showResultView = true
-                }
+            checkResult(score: gameManager.totalScore)
+            if newScore >= 10 {
+                motionManager.stopUpdates()
+                showResultView = true
+            }
+        }
+        .navigationDestination(isPresented: $showResultView, destination: {
+            ResultView(result: $result, gameManager: gameManager)
+        })
+    }
+    
+    private func checkResult(score: Int){
+        for i in 0..<resultsArray.count {
+            if (score >= resultsArray[i].minScore) && (score <= resultsArray[i].maxScore) {
+                result = resultsArray[i]
             }
         }
     }

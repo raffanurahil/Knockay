@@ -13,6 +13,7 @@ class SoundLevelManager: ObservableObject {
     private var audioRecorder: AVAudioRecorder!
     private var timer: Timer?
     @Published var soundLevel: Float = 0.0
+    @Published var rageScore: Float = 0.0
 
     func startMonitoring() {
         let audioSession = AVAudioSession.sharedInstance()
@@ -43,11 +44,24 @@ class SoundLevelManager: ObservableObject {
     private func updateSoundLevel() {
         DispatchQueue.global(qos: .background).async { [weak self] in
             self?.audioRecorder.updateMeters()
-            let level = self?.audioRecorder.averagePower(forChannel: 0) ?? -160
+            let level = self?.audioRecorder.averagePower(forChannel: 0) ?? -40
             DispatchQueue.main.async {
                 self?.soundLevel = level
+                self?.rageScore = self?.calculateRageScore(from: level) ?? 0
             }
         }
+    }
+
+    private func calculateRageScore(from soundLevel: Float) -> Float {
+        // Normalisasi soundLevel dari -160 hingga 0 menjadi 0 hingga 1
+        let normalizedLevel = (soundLevel + 40) / 40
+        // Skalakan normalizedLevel ke rentang 0 hingga 999
+        var rageScore = normalizedLevel * 999
+//        print(String(rageScore))
+        if rageScore < 1 {
+            rageScore = 1
+        }
+        return rageScore
     }
 
     func stopMonitoring() {

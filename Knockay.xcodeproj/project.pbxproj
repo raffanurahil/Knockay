@@ -34,8 +34,11 @@
 		55178E522BFD3DF000B5CDE5 /* FullScreenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E512BFD3DF000B5CDE5 /* FullScreenHelper.swift */; };
 		55178E562BFE918D00B5CDE5 /* HeartRateNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E552BFE918D00B5CDE5 /* HeartRateNotificationManager.swift */; };
 		55178E602BFF8D0100B5CDE5 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E5F2BFF8D0100B5CDE5 /* MotionManager.swift */; };
-		55178E622BFF8D3900B5CDE5 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E612BFF8D3900B5CDE5 /* ResultView.swift */; };
 		55178E642BFF8D7F00B5CDE5 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E632BFF8D7F00B5CDE5 /* GameManager.swift */; };
+		55178E662C00FA9400B5CDE5 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E652C00FA9400B5CDE5 /* ResultModel.swift */; };
+		55178E682C01037500B5CDE5 /* ScoreGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E672C01037500B5CDE5 /* ScoreGauge.swift */; };
+		55178E6A2C0106D100B5CDE5 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E692C0106D100B5CDE5 /* ResultView.swift */; };
+		55178E6C2C01EA5500B5CDE5 /* ReflectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55178E6B2C01EA5500B5CDE5 /* ReflectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +96,11 @@
 		55178E512BFD3DF000B5CDE5 /* FullScreenHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenHelper.swift; sourceTree = "<group>"; };
 		55178E552BFE918D00B5CDE5 /* HeartRateNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateNotificationManager.swift; sourceTree = "<group>"; };
 		55178E5F2BFF8D0100B5CDE5 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
-		55178E612BFF8D3900B5CDE5 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		55178E632BFF8D7F00B5CDE5 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		55178E652C00FA9400B5CDE5 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		55178E672C01037500B5CDE5 /* ScoreGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGauge.swift; sourceTree = "<group>"; };
+		55178E692C0106D100B5CDE5 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		55178E6B2C01EA5500B5CDE5 /* ReflectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +195,8 @@
 				55178E182BFBB19A00B5CDE5 /* HeartRateView.swift */,
 				55178E382BFC843700B5CDE5 /* RageView.swift */,
 				55178E512BFD3DF000B5CDE5 /* FullScreenHelper.swift */,
-				55178E612BFF8D3900B5CDE5 /* ResultView.swift */,
+				55178E692C0106D100B5CDE5 /* ResultView.swift */,
+				55178E6B2C01EA5500B5CDE5 /* ReflectView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,6 +212,7 @@
 		55178E282BFBB67F00B5CDE5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				55178E652C00FA9400B5CDE5 /* ResultModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -224,6 +232,7 @@
 		55178E2A2BFBB69500B5CDE5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				55178E672C01037500B5CDE5 /* ScoreGauge.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -378,9 +387,11 @@
 			files = (
 				55178E502BFD2A9F00B5CDE5 /* InstructionScreamingView.swift in Sources */,
 				55178E312BFC641500B5CDE5 /* FireDefaultView.swift in Sources */,
+				55178E6C2C01EA5500B5CDE5 /* ReflectView.swift in Sources */,
 				55178E3D2BFC9E1C00B5CDE5 /* SoundLevelManager.swift in Sources */,
-				55178E622BFF8D3900B5CDE5 /* ResultView.swift in Sources */,
 				55178E082BFBB14200B5CDE5 /* ContentView.swift in Sources */,
+				55178E662C00FA9400B5CDE5 /* ResultModel.swift in Sources */,
+				55178E682C01037500B5CDE5 /* ScoreGauge.swift in Sources */,
 				55178E522BFD3DF000B5CDE5 /* FullScreenHelper.swift in Sources */,
 				55178E1E2BFBB61300B5CDE5 /* MainView.swift in Sources */,
 				55178E3B2BFC8FEF00B5CDE5 /* SoundLevelMonitor.swift in Sources */,
@@ -388,6 +399,7 @@
 				55178E642BFF8D7F00B5CDE5 /* GameManager.swift in Sources */,
 				55178E062BFBB14200B5CDE5 /* KnockayApp.swift in Sources */,
 				55178E372BFC6EE500B5CDE5 /* Fire3View.swift in Sources */,
+				55178E6A2C0106D100B5CDE5 /* ResultView.swift in Sources */,
 				55178E4E2BFD250100B5CDE5 /* InstructionsPunchView.swift in Sources */,
 				55178E562BFE918D00B5CDE5 /* HeartRateNotificationManager.swift in Sources */,
 				55178E332BFC696500B5CDE5 /* Fire1View.swift in Sources */,

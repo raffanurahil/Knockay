@@ -13,4 +13,11 @@ class GameManager: ObservableObject {
     @Published var punchScore: Int = 0
     
     // Other game-related logic
+    var totalScore: Int
+    {
+        print("Rage: \(rageScore), Punch: \(punchScore)")
+        let squared = sqrt(Double(self.rageScore * self.punchScore))
+        print("Squared: \(squared)")
+        return Int(squared)
+    }
 }

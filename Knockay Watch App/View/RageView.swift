@@ -8,41 +8,46 @@
 import SwiftUI
 
 struct RageView: View {
-    @StateObject private var soundLevelMonitor = SoundLevelManager()
+    @Binding var soundLevelManager : SoundLevelManager
+    
+    @StateObject var soundLevelManager2 = SoundLevelManager()
     
     var body: some View {
         ZStack {
-            if soundLevelMonitor.soundLevel > -10 {
+            if soundLevelManager2.rageScore > 666 {
                 Fire3View()
                 Fire2View()
                 Fire1View()
                 FireDefaultView()
-            } else if soundLevelMonitor.soundLevel > -20 {
+            } else if soundLevelManager2.rageScore > 333 {
                 Fire2View()
                 Fire1View()
                 FireDefaultView()
-            } else if soundLevelMonitor.soundLevel > -30 {
+            } else if soundLevelManager2.rageScore > 10 {
                 Fire1View()
                 FireDefaultView()
             } else {
                 FireDefaultView()
             }
-            //            Fire3View()
-            //            Fire2View()
-            //            Fire1View()
-            //            FireDefaultView()
             
             Image("FirePerson")
                 .offset(y: 10)
                 .shadow(color: .black.opacity(0.5), radius: 4, x: 0, y: 5)
+            
+//            VStack{
+//                Text("Sound Level: \(soundLevelMonitor.soundLevel)")
+//            }
+            
+            Spacer()
         }
         .onAppear {
             // Start monitoring sound levels
-            soundLevelMonitor.startMonitoring()
+            soundLevelManager.startMonitoring()
+            soundLevelManager2.startMonitoring()
         }
     }
 }
 
 #Preview {
-    RageView()
+    RageView(soundLevelManager: .constant(SoundLevelManager()))
 }
